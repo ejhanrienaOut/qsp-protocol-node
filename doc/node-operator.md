@@ -1,7 +1,7 @@
 # How to become a node operator
 
 ## Note before you start and to all decentralized node operators!
-We recommend updating `block_mined_polling_interval_sec` to 5 in qsp-protocol-node/blob/develop/resources/config.yaml#L71(https://github.com/quantstamp/qsp-protocol-node/blob/develop/resources/config.yaml)
+We recommend updating `block_mined_polling_interval_sec` to 5 in [qsp-protocol-node/blob/develop/resources/config.yaml#L71](https://github.com/quantstamp/qsp-protocol-node/blob/develop/resources/config.yaml)
 Recently we noticed some rate-limiting on requests that results in throttling for some nodes. Updating polling interval to 5 would solve the rate limiting issue, thanks!
 
 ## Overview
